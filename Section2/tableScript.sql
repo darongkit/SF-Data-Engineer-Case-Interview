@@ -14,7 +14,7 @@ CREATE TABLE car (
     serial_number VARCHAR(100) PRIMARY KEY,
     manufacturer VARCHAR(100),
     model_name VARCHAR(100),
-    weight DECIMAL(5,2) CHECK (weight > 0),
+    weight DECIMAL(10,2) CHECK (weight > 0),
     price DECIMAL (10,2) CHECK (price > 0),
     CONSTRAINT fk_manufacturer FOREIGN KEY (manufacturer) REFERENCES manufacturer(name) ON DELETE CASCADE
 );
