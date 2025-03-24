@@ -5,3 +5,6 @@ ensure csv files are in folder being mounted
 program the dataset processing with scheduler using dag
 build the docker with airflow
 the scheduler will trigger the process every 1 am as specified in the program.
+
+
+Attached documents are the env uid, the provided datasets and processed datasets and the scheduler program.
