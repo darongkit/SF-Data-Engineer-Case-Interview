@@ -4,8 +4,9 @@ https://www.datacamp.com/tutorial/getting-started-with-apache-airflow?utm_source
 
 create directory to create instance of apache airflow with docker
 mount folder with csv to docker-compose
-ensure csv files are in folder being mounted
+ensure csv files are in folder being mounted (eg. airflow-docker\data\csv_files)
 program the dataset processing with scheduler using dag
+ensure the program is in the dag directory (eg. airflow-docker\dags)
 build the docker with airflow
 the scheduler will trigger the process every 1 am as specified in the program.
 
